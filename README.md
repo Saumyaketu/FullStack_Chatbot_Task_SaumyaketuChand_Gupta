@@ -261,31 +261,6 @@ The seed dataset contains realistic entries for aerospace students, precision ag
 
 ---
 
-## GitHub Submission Guide
-
-To initialize and push this project to GitHub as per the assignment naming convention:
-
-```bash
-# Initialize Git
-git init
-
-# Stage all files (node_modules and .env are automatically ignored)
-git add .
-
-# Create initial commit
-git commit -m "feat: complete DroneTV Full Stack AI Support & Lead Assistant application"
-
-# Rename branch to main
-git branch -M main
-
-# Add your GitHub remote repository
-git remote add origin https://github.com/<your-username>/FullStack_Chatbot_Task_FirstName_LastName.git
-
-# Push to GitHub
-git push -u origin main
-```
-
----
 
 ### Author Note
 Developed with care and precision for the **IPAGE Group Full Stack Developer Internship** selection process.
