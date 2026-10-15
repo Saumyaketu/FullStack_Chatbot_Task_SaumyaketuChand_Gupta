@@ -22,7 +22,8 @@
 7. [Environment Variables](#environment-variables)
 8. [Database Setup & Seeding](#database-setup--seeding)
 9. [API Endpoints Documentation](#api-endpoints-documentation)
-10. [GitHub Submission Guide](#github-submission-guide)
+10. [Screenshots](#screenshots)
+11. [GitHub Submission Guide](#github-submission-guide)
 
 ---
 
@@ -258,6 +259,12 @@ The seed dataset contains realistic entries for aerospace students, precision ag
 | `POST` | `/api/enquiries` | Create new enquiry / lead | `{ name, email, phone, userType, serviceOrCourse, message, source }` | `201 Created`, `400 Bad Request` |
 | `PATCH` | `/api/enquiries/:id` | Update enquiry status or notes | `{ status: "Contacted", adminNotes: "Called" }` | `200 OK`, `404 Not Found` |
 | `DELETE` | `/api/enquiries/:id` | Remove enquiry record | None | `200 OK`, `404 Not Found` |
+
+---
+
+## Screenshots
+
+View the application screenshots in the [`screenshots/`](./screenshots/) folder.
 
 ---
 
